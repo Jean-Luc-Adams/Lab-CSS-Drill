@@ -1,0 +1,62 @@
+* {
+    font-family: 'Kaushan Script', cursive, sans-serif;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.753);
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+.boxes {
+    display: block;
+    margin: 1em 3em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(168, 20, 20, 0.678);
+}
+
+.darkblue-bold {
+    color: rgb(3, 3, 110);
+    font-weight: bold;
+}
+
+.goldenrod-bold {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.red-bold {
+    color: rgba(219, 32, 32, 0.842);
+    font-weight: bold;
+}
+
+.green-bold {
+    color: rgba(18, 179, 18, 0.829);
+    font-weight: bold;
+}
+
+#box1 {
+    background-color: rgb(236, 160, 173);
+}
+
+#box2 {
+    background-color: rgba(128, 41, 41, 0.829);
+}
+
+#box3 {
+    background-color: lightskyblue;
+}
+
+#box4 {
+    background-color: rgb(185, 185, 6);
+}
