@@ -1,3 +1,5 @@
+/* Now, Let's Style Section CSS*/
+
 * {
     font-family: 'Kaushan Script', cursive, sans-serif;
 }
@@ -6,7 +8,9 @@ body {
     background-color: rgba(211, 211, 211, 0.753);
 }
 
-h2, p, .readme-wrapper {
+h2,
+p,
+.readme-wrapper {
     text-align: center;
 }
 
@@ -59,4 +63,52 @@ a:hover {
 
 #box4 {
     background-color: rgb(185, 185, 6);
+}
+
+.image {
+    width: 3em;
+    height: 3em;
+    background-color: rgb(100, 100, 100);
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*Styling Specificity Section CSS*/
+
+h1, ul {
+    color: rgb(206, 120, 206);
+}
+
+.shows1, .friend1, .places1, .resturant1 {
+    color: rgb(189, 140, 77);
+}
+
+.shows2, .friend2, .places2, .resturant2 {
+    color: #f122ba;
+}
+
+#rank1, #bff1, #vacay1, #food1 {
+    color: gold;
+}
+
+#rank2, #bff2, #vacay2, #food2 {
+    color: silver;
+}
+
+#rank3, #bff3, #vacay3, #food3 {
+    color: brown;
+}
+
+#rank4, #bff4, #vacay4, #food4 {
+    color: blue;
+}
+
+#rank5, #bff5, #vacay5, #food5 {
+    color: forestgreen;
+}
+
+.list {
+    border: 2px solid black;
 }
